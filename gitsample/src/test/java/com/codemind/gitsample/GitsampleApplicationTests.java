@@ -8,6 +8,7 @@ class GitsampleApplicationTests {
 
 	@Test
 	void contextLoads() {
+		System.out.println("Hello World");
 	}
 
 }
