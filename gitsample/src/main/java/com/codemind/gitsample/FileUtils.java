@@ -21,11 +21,6 @@ public class FileUtils {
         return osName.contains("win");
     }
 
-    public static boolean isWindows2() {
-        String osName = System.getProperty("os.name").toLowerCase();
-        return osName.contains("win");
-    }
-
     public static String getPlatformPath(String path) {
         String gitConfigPath = path;
         if(FileUtils.isWindows()) {
