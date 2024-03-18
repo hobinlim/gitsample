@@ -8,6 +8,7 @@ public class MainController {
 
     @GetMapping("/")
     public String index2() {
+        // 1
         return "Hello index page~";
     }
 }
