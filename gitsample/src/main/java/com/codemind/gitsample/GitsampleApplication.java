@@ -10,5 +10,5 @@ public class GitsampleApplication {
 		SpringApplication.run(GitsampleApplication.class, args);
 	}
 
-	// 1, 2, 3, 4
+	// 1, 2,
 }
